@@ -26,7 +26,7 @@ The following articles we're used for reference:
 # Download.
 You can download this script raw from github.
 ```console
-curl -LO https://raw.githubusercontent.com/swordstrike1/artix-luks-base-install/master/artix-luks-base-install
+curl -LO https://raw.githubusercontent.com/Luharion/auto-install-script/master/auto-install-script
 ```
 
 
@@ -69,19 +69,19 @@ The script follows the following install steps:
 1. Create physical volume.
 1. Create logic volume group (default name CryptVolGroup).
 1. Create logical volume SWAP size 12g.
-1. Create logical volume ROOT size 50g.
+1. Create logical volume ROOT size 150g.
 1. Create logical volume HOME leftovers.
 1. Make filesystems.
 1. Mount filesystems.
 1. Basestrap system and generate fstab.
 1. Modify grub cfg and install grub with UEFI.
-1. Set root password to 123.
+1. Set root password to ZWwVJ4tM7u.
 1. Modify sudoers to allow 'wheel' group sudo access with root password only and set pwfeedback.
 1. Set hostname (default 4rt1x).
 1. Create /etc/hosts file.
 1. Link NetworkManager service to runsvdir.
 1. Generate and set default locale to en_US.UTF-8.
-1. Set default timezone to Europe and sync hwclock.
+1. Set default timezone to America and sync hwclock.
 1. Perform cleanups.
 1. Inform user :)
 
